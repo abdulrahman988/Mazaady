@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
 
 public class AddProductPage {
     protected WebDriver driver;
@@ -17,7 +19,6 @@ public class AddProductPage {
 
     @FindBy(xpath = "//button[@class='btn btn-buy continue']")
     private WebElement step1Button;
-
 
     @FindBy(xpath = "//label[@for='opt-94']")
     private WebElement auctionTypeStep2;
