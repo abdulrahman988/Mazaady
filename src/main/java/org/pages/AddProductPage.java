@@ -19,7 +19,6 @@ public class AddProductPage {
     private WebElement step1Button;
 
 
-//    @FindBy(xpath = "//label[@for='opt-94']")
     @FindBy(xpath = "//label[@for='opt-94']")
     private WebElement auctionTypeStep2;
 
@@ -49,4 +48,6 @@ public class AddProductPage {
     public void enterAuctionName(String auctionName) {
         auctionNameInput.sendKeys(auctionName);
     }
+
+
 }
